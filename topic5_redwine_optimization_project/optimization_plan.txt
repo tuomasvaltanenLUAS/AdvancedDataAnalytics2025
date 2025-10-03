@@ -1,0 +1,30 @@
+RED WINE DATASET (CLASSIFICATION)
+---------------------------------
+
+IDEAS FOR OPTIMIZATION
+
+SMOTE for generating a balanced dataset (add more data)
+    - optionally we could consider CTGAN or CopulaSynthesizer
+
+Outlier removal, let's start with IsolationForest (not too much though)
+
+TomekLinks to clean overlapping through the dataset
+    - Instead of TomekLinks, we could consider Autoencoders
+    - ClusterCentroids could be useful, but we don't enough data
+
+KMeans clustering to help the model DIFFERENTIATE between quality classes
+==> especially with the confusing middle-range wines
+
+==> try assigning each wine an automated unsupervised AI cluster
+==> use this information to determine the difference between qualities 5 and 6
+==> other clustering methods also possible (see scikit-learn's clustering page) 
+
+###############################
+
+In Deep Learning -course, our classification model accuracy was 58%
+
+Our aim is to get this over 80%
+
+Algorithms we can try: XGBoost, RandomForest, KNN
+
+Also use grid/random search to find best parameters for the the selected algorithm
