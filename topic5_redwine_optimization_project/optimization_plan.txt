@@ -1,7 +1,7 @@
 RED WINE DATASET (CLASSIFICATION)
 ---------------------------------
 
-IDEAS FOR OPTIMIZATION
+IDEAS FOR OPTIMIZATIONS IN A FUTURE LECTURE
 
 SMOTE for generating a balanced dataset (add more data)
     - optionally we could consider CTGAN or CopulaSynthesizer
