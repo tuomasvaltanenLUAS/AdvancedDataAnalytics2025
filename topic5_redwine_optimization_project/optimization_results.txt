@@ -1,0 +1,17 @@
+Original neural network (Deep learning -course)
+
+SIMPLIFIED dataset (only 4 categories, where bottom and top
+categories were combined)
+
+Accuracy 58.33%
+ROC-AUC = 78,5%
+
+XGBoost baseline with original quality categories
+values usually range from 66 - 73% accuracy
+
+With SMOTE + TomekLinks + Isolation Forest
+the model performs at 85-88%
+However, this might be an overly optimistic result
+sine most of the data is now synthetic (especially in the minority classes)
+
+IDEA: split the real wines out of the dataset, and use that as the testing dataset later
