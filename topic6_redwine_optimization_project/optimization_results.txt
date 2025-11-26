@@ -15,3 +15,6 @@ However, this might be an overly optimistic result
 sine most of the data is now synthetic (especially in the minority classes)
 
 IDEA: split the real wines out of the dataset, and use that as the testing dataset later
+
+With SMOTE + TomekLinks + Isolation Forest + clustering
+AND using only real wines as test dataset, model performs roughly at 80-82% accuracy.
